@@ -39,7 +39,7 @@ PLACEHOLDER CALENDAR EVENT
 ## PLACEHOLDER HEADING
 
 20:00 **Keynote** by "Rupert"\\
-21:00 **ML.NET and Why Microsoft Sucks at Naming** by Secret Celeb\\
+21:00 **ML.NET and Naming Puke** by Secret Celeb\\
 22:00 **The Walking Dead** Prison episodes extravaganza all night long!
 
 ## Where?
