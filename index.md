@@ -1,7 +1,7 @@
 # FriskCON
 
 * Required intake of ~Metaxa~/Southern Dew/Comfort Mountain
-* All prison episodes of **The Walking Dead**
+* All prison episodes of The Walking Dead
 * No practicing breathatarians are granted entry
 * Catering from M&N Thaikök
 * Use of HTTP and/or WebSockets is frowned upon
