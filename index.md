@@ -1,6 +1,6 @@
 # FriskCON
 
-* Required intake of ~Metaxa~/Southern Dew/Comfort Mountain
+* Required intake of Southern Dew/Comfort Mountain
 * All prison episodes of The Walking Dead
 * No practicing breathatarians are granted entry
 * Catering from M&N Thaikök
@@ -13,4 +13,5 @@
 * VIP area with Resident Evil 2 puzzle security
 * Non-existing Nintendo NES video game system
 * Working N64 controllers
+* Sadly no Metaxa due to character flaws
 * A real good event
