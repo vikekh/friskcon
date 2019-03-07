@@ -1,5 +1,5 @@
-title: FriskCON.wtf
-description: "A Real Good Event!"
+title: FriskCON 2019
+description: A Real Good Event!
 show_downloads: false
-google_analytics:
+google_analytics: false
 theme: jekyll-theme-cayman
