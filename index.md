@@ -44,6 +44,6 @@ PLACEHOLDER CALENDAR EVENT
 
 ## Where?
 
-PLACEHOLDER MAP
+<div id="map"></div>
 
 ## Sponsors

@@ -7,6 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <style>
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
   </head>
   <body>
     <section class="page-header">
@@ -43,5 +50,21 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+
+    <script>
+      // Initialize and add the map
+      function initMap() {
+        // The location of Uluru
+        var position = { lat: 55.600943, lng: 13.037659 };
+        // The map, centered at Uluru
+        var map = new google.maps.Map(
+            document.getElementById('map'), { zoom: 4, center: position });
+        // The marker, positioned at Uluru
+        var marker = new google.maps.Marker({position: position, map: map});
+      }
+    </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2roOEj-Vd1ZRDGQGLRJdnEM0F-kpc67A&callback=initMap"></script>
+
   </body>
 </html>
