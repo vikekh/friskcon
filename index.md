@@ -38,11 +38,14 @@ PLACEHOLDER CALENDAR EVENT
 
 ## PLACEHOLDER HEADING
 
+19:30 **Meat & Greet** at Lidl\\
 20:00 **Keynote** by "Rupert"\\
 21:00 **ML.NET and Naming Puke** by Secret Celeb\\
 22:00 **The Walking Dead** Prison episodes extravaganza all night long!
 
 ## Where?
+
+We meet up outside Lidl, 1B Knife Street, Malmö at 19:30 sharp.
 
 <div id="map"></div>
 
