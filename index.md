@@ -1,4 +1,4 @@
-# FriskCON
+# Why the fuck?
 
 * Required intake of Southern Dew/Comfort Mountain
 * All prison episodes of The Walking Dead
