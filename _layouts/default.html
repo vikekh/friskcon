@@ -10,11 +10,16 @@
 </head>
 
 <body>
-    <h1>{{ site.title }}</h1>
-    <section>
+    <header class="jumbotron">
+        <div class="container">
+            <h1>{{ site.title }}</h1>
+            <p class="lead">Ett riktigt bra event.</p>
+        </div>
+    </header>
+    <main class="container">
         {{ content }}
-    </section>
-    <footer>
+    </main>
+    <footer class="container">
         &copy; vikekh
     </footer>
 
