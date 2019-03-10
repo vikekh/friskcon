@@ -20,3 +20,5 @@
 We meet up outside Lidl, 1B Knife Street, Malmö at 19:30 sharp.
 
 <div class="map"></div>
+
+**Convince your boss!**
