@@ -1,4 +1,11 @@
-#map {
+.map {
     height: 400px;
     width: 100%;
+    margin-bottom: 1rem;
+}
+
+.ribbon {
+    position: absolute;
+    top: 0;
+    right: 0;
 }

@@ -1,53 +1,22 @@
-## What?
+**Save the date: Thursday March 14th!**
 
-**FriskCON!**
-
-## Who?
-
-Frisk! He has his own convention now! Because fudge you.
-
-## When?
-
-On Thursday March 14th aka π Day! Save the date!
-
-PLACEHOLDER CALENDAR EVENT
-
-## Why?
-
-* Lots of strong drinks and fatty foods
-* Free from practicing breathatarians
-* Use of HTTP and/or WebSockets during event is frowned upon, all other application layer protocols are welcome
-* Working N64 controllers
+* Durable drinks
+    * Endless supply of [Southern Dew](http://www.haveacocktail.com/southern-dew.htm) Light
+    * Special beers from Gothenburg
+* Fatty foods
+    * Catering from M&N Thaikök
+    * Fuet sausage snacks
+* RetroPie loaded with a staggering amount of ROM's + N64 with working controllers
 * VIP area with Resident Evil puzzle security
+* Certified free from HTTP and WebSockets
 
-## Why Not?
-
-* No Metaxa this year due to character flaws
-
-## Drinks?
-
-* Non-optional endless supply of Comfort Mountain
-* Special beers from Little London
-* Still no Metaxa
-
-## Food?
-
-* Catering from M&N Thaikök
-* Fuet sausage snacks
-* After-event dinner party at nearby Chinese joint
-
-## PLACEHOLDER HEADING
+**DISCLAIMER!** No Metaxa this year due to character flaws!
 
 19:30 **Meat & Greet** at Lidl\\
-20:00 **Keynote** by "Rupert"\\
-21:00 **ML.NET and Vomit Naming** by Secret Celeb\\
-22:00 **Church Workshop**\\
-00:00 **The Walking Dead** Prison episodes extravaganza all night long!
+20:00 **Keynote** by "R"\\
+21:00 **ML.NET and Why Microsoft Sucks at Naming Stuff** by V. Ekholm\\
+22:00 **How to Leave Church Workshop**
 
-## Where?
+We meet up outside Lidl, 1B Knife Street, Malmö at 19:30 sharp.
 
-We meet up outside Lidl, 1B Knife Street (Knivgatan), Malmö at 19:30 sharp.
-
-<div id="map"></div>
-
-## Sponsors
+<div class="map"></div>

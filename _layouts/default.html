@@ -13,14 +13,21 @@
     <header class="jumbotron">
         <div class="container">
             <h1>{{ site.title }}</h1>
-            <p class="lead">Ett riktigt bra event.</p>
+            <p class="lead">"Ett riktigt bra event."</p>
+        </div>
+        <div class="ribbon">
+            <a href="https://github.com/vikekh/friskcon">
+                <img width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_green_007200.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1">
+            </a>
         </div>
     </header>
     <main class="container">
         {{ content }}
     </main>
     <footer class="container">
-        &copy; vikekh
+        <p>
+            <a href="https://github.com/vikekh">&copy; 2019 vikekh</a>
+        </p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -29,7 +36,7 @@
     <script>
         function initMap() {
           var position = { lat: 55.600943, lng: 13.037659 };
-          var map = new google.maps.Map(document.getElementById('map'), { zoom: 10, center: position });
+          var map = new google.maps.Map(document.getElementsByClassName('map')[0], { zoom: 10, center: position });
           var marker = new google.maps.Marker({ position: position, map: map });
         }
     </script>
