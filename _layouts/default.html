@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>{{ site.title }}</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.2/gh-fork-ribbon.min.css" />
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
@@ -18,9 +19,7 @@
             <p class="lead" style="clear: both;">"Ett riktigt bra event."</p>
         </div>
         <div class="ribbon">
-            <a href="https://github.com/vikekh/friskcon">
-                <img width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_green_007200.png?resize=149%2C149" class="attachment-full size-full" alt="Gaffla oss på GitHub" data-recalc-dims="1">
-            </a>
+            <a class="github-fork-ribbon" href="https://github.com/{{ site.repository }}" data-ribbon="Gaffla mig på GitHub" title="Gaffla mig på GitHub">Gaffla mig på GitHub</a>
         </div>
     </header>
     <main class="container">
@@ -38,9 +37,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script>
         function initMap() {
-          var position = { lat: 55.600943, lng: 13.037659 };
-          var map = new google.maps.Map(document.getElementsByClassName('map')[0], { zoom: 10, center: position });
-          var marker = new google.maps.Marker({ position: position, map: map });
+            var position = { lat: 55.600943, lng: 13.037659 };
+            var map = new google.maps.Map(document.getElementsByClassName('map')[0], { zoom: 10, center: position });
+            var marker = new google.maps.Marker({ position: position, map: map });
         }
 		
 		// Set the date we're counting down to
