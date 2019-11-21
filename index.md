@@ -1,21 +1,22 @@
 **Save the date: Thursday March 14th!**
 
-* Durable drinks
-    * Endless supply of [Southern Dew](http://www.haveacocktail.com/southern-dew.htm) Light
-    * Special beers from Gothenburg
-* Fatty foods
-    * Catering from M&N Thaikök
-    * Fuet sausage snacks
-* RetroPie loaded with a staggering amount of ROM's + N64 with working controllers
-* VIP area with Resident Evil puzzle security
-* Certified free from HTTP and WebSockets
+* Finest wares in the land!
+    * More X Mules than you can think of
+    * "One-time-only" selection of beers (only at Friscon)
+    * Best jerky's in town
+* Delicious foods
+    * Catering from Delivery Hero
+    * Finest nuts and snacks, including Grill Chips
+    * After-con visit to China
+* Smart Home controlled Frisk Con! #iot
+* YouTube audio book collection for VIP
+* GDPR compliant... your privacy matters!!!
+* SPECIAL GUEST: Fadder Fouras telling you all some trixy riddles
+* And much much more
 
-**DISCLAIMER!** No Metaxa this year due to character flaws!
+**Metaxa this year!**
 
-19:30 **Meat & Greet** at Lidl\\
-20:00 **Keynote** by "R"\\
-21:00 **ML.NET and Why Microsoft Sucks at Naming Stuff** by V. Ekholm\\
-22:00 **How to Leave Church Workshop**
+**Comming Soon:** Agenda
 
 We meet up outside Lidl, 1B Knife Street, Malmö at 19:30 sharp.
 
