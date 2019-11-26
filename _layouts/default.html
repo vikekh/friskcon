@@ -7,71 +7,41 @@
     <title>{{ site.title }}</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.2/gh-fork-ribbon.min.css" />
+    <link rel="stylesheet" href="/css/cover.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-    <header class="jumbotron">
-		<div class="container">
-    		<img style="float: left;" src="/skully.gif">
-            <h1 style="float: left; margin-top: 75px">{{ site.title }}</h1>
-    		<img style="float: left;" src="/skully.gif">
-            <p class="lead" style="clear: both;">"Ett riktigt bra event."</p>
-        </div>
-        <div class="ribbon">
-            <a class="github-fork-ribbon" href="https://github.com/{{ site.repository }}" data-ribbon="Gaffla mig på GitHub" title="Gaffla mig på GitHub">Gaffla mig på GitHub</a>
-        </div>
-    </header>
-    <main class="container">
-        {{ content }}
-		<p><strong>NEDRÄKNING: </strong><strong id="countdown"></strong></p>
-    </main>
-    <footer class="container">
-        <p>
-            <a href="https://github.com/vikekh">&copy; 2019 vikekh</a>
-        </p>
-    </footer>
+    <div class="ribbon">
+        <a class="github-fork-ribbon" href="https://github.com/{{ site.repository }}" data-ribbon="Gaffla mig på GitHub" title="Gaffla mig på GitHub">Gaffla mig på GitHub</a>
+    </div>
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+          <div class="inner">
+            <h3 class="masthead-brand">Cover</h3>
+            <nav class="nav nav-masthead justify-content-center">
+              <a class="nav-link active" href="#">Home</a>
+              <a class="nav-link" href="/features">Features</a>
+              <a class="nav-link" href="#">Contact</a>
+            </nav>
+          </div>
+        </header>
+      
+        <main role="main" class="inner cover">
+          {{ content }}
+        </main>
+      
+        <footer class="mastfoot mt-auto">
+          <div class="inner">
+            <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+          </div>
+        </footer>
+      </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script>
-        function initMap() {
-            var position = { lat: 55.600943, lng: 13.037659 };
-            var map = new google.maps.Map(document.getElementsByClassName('map')[0], { zoom: 10, center: position });
-            var marker = new google.maps.Marker({ position: position, map: map });
-        }
-		
-		// Set the date we're counting down to
-		var countDownDate = new Date("Mar 14, 2019 19:30:00").getTime();
-
-		// Update the count down every 1 second
-		var x = setInterval(function() {
-
-		  // Get todays date and time
-		  var now = new Date().getTime();
-
-		  // Find the distance between now and the count down date
-		  var distance = countDownDate - now;
-
-		  // Time calculations for days, hours, minutes and seconds
-		  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-		  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-		  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-		  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-		  // Display the result in the element with id="demo"
-		  document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
-		  + minutes + "m " + seconds + "s ";
-
-		  // If the count down is finished, write some text 
-		  if (distance < 0) {
-			clearInterval(x);
-			document.getElementById("countdown").innerHTML = "Hoppas ni är nitade nu";
-		  }
-		}, 1000);
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2roOEj-Vd1ZRDGQGLRJdnEM0F-kpc67A&callback=initMap"></script>
 </body>
 
 </html>
