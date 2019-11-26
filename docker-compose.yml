@@ -1,11 +1,12 @@
-jekyll:
-    image: jekyll/jekyll:pages
-    container_name: friskcon
+version: '3.7'
+
+services:
+  jekyll:
+    image: starefossen/github-pages
     environment:
-        - JEKYLL_ENV=docker
-    command: jekyll serve --force_polling --livereload --watch --incremental
+      - "JEKYLL_GITHUB_TOKEN:${JEKYLL_GITHUB_TOKEN}"
     ports:
-        - 4000:4000
-        - 35729:35729
+      - "4000:4000"
     volumes:
-        - .:/srv/jekyll
+      - ./:/usr/src/app
+    tty: true
