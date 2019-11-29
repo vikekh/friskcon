@@ -27,3 +27,12 @@ body {
     background-color: #333;
     opacity: 0.9;
 }
+
+.flipclock-container {
+    text-align: center;
+}
+
+.flipclock {
+    width: auto;
+    display: inline-block;
+}

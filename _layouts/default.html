@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.2/gh-fork-ribbon.min.css" />
     <link rel="stylesheet" href="/css/cover.css">
+    <link rel="stylesheet" href="/css/flipclock.css">
     <link rel="stylesheet" href="/css/style.css">
 
     <title>{{ site.title }}</title>
@@ -48,6 +49,36 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
+    <script src="/js/flipclock.min.js"></script>
+
+    <script>
+
+    var clock;
+
+    $(document).ready(function() {
+        // Grab the current date
+        var currentDate = new Date();
+
+        // Set some date in the future
+        var futureDate  = new Date(2019, 10, 30, 18, 0);
+
+        // Calculate the difference in seconds between the future and current date
+        var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+
+        // Instantiate a coutdown FlipClock
+        clock = new FlipClock($('.flipclock'), diff, {
+            clockFace: 'Counter',
+            countdown: true
+        });
+
+        setTimeout(function() {
+            setInterval(function() {
+                clock.decrement();
+            }, 1000);
+        });
+    });
+        
+    </script>
 </body>
 
 </html>
