@@ -1,11 +1,10 @@
-jekyll:
+version: '3.7'
+
+services:
+  jekyll:
     image: jekyll/jekyll:pages
-    container_name: friskcon
-    environment:
-        - JEKYLL_ENV=docker
-    command: jekyll serve --force_polling --livereload --watch --incremental
+    command: jekyll serve --watch --incremental
     ports:
-        - 4000:4000
-        - 35729:35729
+      - 4000:4000
     volumes:
-        - .:/srv/jekyll
+      - .:/srv/jekyll

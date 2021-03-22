@@ -1,2 +1,9 @@
 title: FriskCON 2020
 repository: "vikekh/friskcon"
+
+plugins:
+- jekyll-github-metadata
+- jekyll-mentions
+- jekyll-redirect-from
+- jekyll-sitemap
+- jemoji
